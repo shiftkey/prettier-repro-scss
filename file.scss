@@ -1,0 +1,16 @@
+body.theme-dark {
+  /**
+    * App menu bar colors (Windows/Linux only)
+    */
+  --app-menu-button-hover-background-color: var(
+    --toolbar-button-hover-background-color
+  );
+  /**
+    * Background color for badges inside of toolbar buttons.
+    * Examples of badges are the ahead/behind bubble in the
+    * push/pull button and the PR badge in the branch drop
+    * down button.
+    */
+  --toolbar-badge-background-color: $gray-700;
+}
+

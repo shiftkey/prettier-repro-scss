@@ -1,0 +1,16 @@
+{
+  "name": "prettier-repro-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "repro": "prettier file.scss",
+    "summary": "prettier --list-different file.scss || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.13.5"
+  }
+}
